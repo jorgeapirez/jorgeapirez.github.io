@@ -1,0 +1,68 @@
+
+.contener{
+    display: flex;
+    justify-content: right;
+}
+.vline{
+    border-left: thin solid #000;
+    width: 5%;
+    height: 50%;
+    left: 50%;
+    position: absolute;
+    margin-bottom: 200px;
+}
+hr{
+    color: #000;
+}
+p{
+    display: inline;
+    margin: 5px;
+    text-indent: 30px;
+}
+
+#form{
+    font-style: italic;
+}
+#nombre{
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+    animation: reverse;
+    background: radial-gradient(#eff1ff, #000)
+}
+
+#aspiraciones{
+    font-style: italic;
+}
+
+body{
+    background: radial-gradient(#000, #eff1ff)
+}
+.imagen1{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#imagen1{
+    border-radius: 50%;
+}
+img{
+
+    width: 200px;
+    height: 200px;
+}
+#info{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline 
+    
+    
+}
+#texto1{
+    font-size: 24px;
+    background: radial-gradient(#3b4fe6, #e60e0e);
+    color: #000000;
+    text-decoration: underline;
+}
